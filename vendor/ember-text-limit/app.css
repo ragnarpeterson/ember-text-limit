@@ -1,0 +1,20 @@
+.text-limit {
+  position: relative;
+  display: inline-block;
+}
+
+.text-limit textarea {
+  margin: 0;
+  resize: none;
+}
+
+.text-limit .text-limit-count {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 6px;
+}
+
+.text-limit.over .text-limit-count {
+  color: red;
+}
